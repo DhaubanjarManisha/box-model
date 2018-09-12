@@ -1,0 +1,78 @@
+#wrapper{
+	background-image:url(img/img4.jpg);
+	background-size:cover;
+	opacity:0.9;
+	width:1004px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px;
+	
+	
+	}
+h1{
+
+	text-align:center;
+	background-color:black;
+	opacity:0.8;
+	color:#FCF;
+	font-family: serif;
+	font-size:36px;
+	
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+	}
+ ul li{
+	 float:left;
+	 width:200px;
+	 height:40px;
+	 background-color:black;
+	 opacity:0.8;
+	 line-height:40px;
+	 text-align:center;
+	 font-size:20px;
+	 margin-right:2px;
+	
+	 }
+ul li a{
+	 color:white;
+	 text-decoration:none;
+	 display:block;
+	}
+
+ul li a:hover{
+		background-color:green;;
+	}
+ul li ul li{
+	display:none;/*donot display the sub menu*/
+	}
+ul li:hover ul li{/*while hovering main menu related sub list display*/
+	
+	display:block;
+	}
+
+#header{
+	padding:20px;
+	height:100px;
+	width:940px;
+	}
+#content{
+	padding:20px;
+	height:300px;
+	width:940px;
+	color:white;
+	}
+#footer{
+	padding:20px;
+	border-top:2px solid red;
+	height:100px;
+	width:940px;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+
+		
+		}
